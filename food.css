@@ -1,0 +1,131 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.90), rgba(0, 0, 0, 0.90)), url(bg.jpg)
+}
+#wrapper {
+    height: auto;
+    width: 1350px;
+    border: 1px solid;
+    overflow: hidden;
+    margin: auto;
+}
+
+#main {
+    height: 557px;
+    width: 980px;
+    /* margin: auto; */
+    border: 1px solid;
+    overflow: scroll;
+    background: white;
+    float:right;
+}
+
+.child {
+    height: 275px;
+    width: 300px;
+    border: 1px solid red;
+    float: left;
+    margin-left: 15px;
+    margin-top: 35px;
+    text-align: center;
+    color: orange;
+}
+.child a{
+    color: orangered;
+}
+.child h2{
+    background: rgba(255, 166, 0, 0.466);
+}
+.child h3{
+    background: rgba(255, 68, 0, 0.466);
+}
+
+#top {
+    height: 370px;
+    width: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35)), url(food.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+
+#searchDIv{
+height: 200px;
+width: 300px;
+margin: auto;
+border: 2px solid white;
+}
+
+
+#searchDIv p{
+margin-top: 30px;
+color: white;
+font-weight: bold;
+margin-left: 65px;
+}
+#btn{
+margin-left:120px;
+margin-top: 10px;
+font-size: larger;
+background: white;
+color: black;
+}
+#header{
+height: 70px;
+width: 100%;
+font-size: 40px;
+color: aliceblue;
+background: linear-gradient(rgba(1, 1, 1, 0.35), rgba(1, 1, 1, 0.35));
+margin-bottom:40px;
+line-height: 90px;
+}
+#result{
+    text-align: center;
+    color:aliceblue;
+    background:linear-gradient(rgb(233, 157, 17), orange, rgba(1, 1, 1, 0.35));
+}
+
+.ChildDivDetails11{
+    height: auto;
+    width: 300px;
+    border: 2px solid black;
+    background: rgba(255, 166, 0, 0.582);
+    margin-left: 1%;
+    /* position: fixed; */
+    margin-top: 0%;
+    box-shadow: 0px 0px 10px 0px orangered;
+    padding: 14px;
+    color: aliceblue;
+    float: left;
+}
+.ChildDivDetails11 img{
+    margin: 14px;
+}
+.ChildDivDetails11 h2{
+    text-align: center;
+}
+
+
+#footer{
+    height:70px;
+    width: 100%;
+    margin: auto;
+    background: linear-gradient(rgb(233, 157, 17), orange, rgba(1, 1, 1, 0.35));
+    text-align: center;
+    color: aliceblue;
+    line-height: 70px;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+#midWrapper{
+    height: auto;
+    width: 100%;
+    background: rgba(255, 166, 0, 0.377);
+    margin: auto;
+    overflow: hidden;
+
+}

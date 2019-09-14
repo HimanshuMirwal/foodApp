@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <script src="food.js"></script>
+    <link type="image/png" rel="shortcut icon" href="logo.png" />
+    <title>
+        Good Food
+    </title>
+    <link rel="stylesheet" type="text/css" href="food.css">
+</head>
+
+<body>
+
+    <div id="wrapper" class="wrapper">
+        <!-- <h2>wrapper</h2> -->
+        <div id="top">
+            <div id="header">
+                <img src="logo.png" height="50px" width="60px" />
+                Good Food
+            </div>
+
+            <div id="searchDIv">
+                <p>Dish
+                    <br>
+                    <label>
+                        <input type="text" value="" id="dish" /> </label>
+                </p>
+
+                <p>Location
+                    <br>
+                    <label>
+                        <input type="text" value="" id="location" /> </label>
+                </p>
+                <input type="button" value="search" id="btn" onclick="getRecipes()" />
+                <br>
+            </div>
+        </div>
+        <!-- <form>
+            Enter dish:<input type="text" value="" id="dish" />
+            Enter location:<input type="text" value="" id="location" />
+            <input type="button" value="search" id="btn" onclick="getRecipes()" />
+
+        </form> -->
+        <h1 id="result">Your Dishes</h1>
+        <div id="midWrapper">
+            <div class="ChildDivDetails11" id="ChildDivDetails">
+
+            </div>
+            <div id="main">
+
+            </div>
+        </div>
+        <!-- footer -->
+        <div id="footer">
+            copyrights &copy; Good Food
+        </div>
+    </div>
+</body>
+
+</html>
